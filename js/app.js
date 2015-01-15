@@ -43,6 +43,9 @@ $(document).ready(function() {
 		{
 			alert ("Please enter a number");
 		}
+		else if (value_number % 1 != 0) {
+			alert ("Please enter integer");
+		}
 		else 
 		{
 			$(".numberlist").empty();
