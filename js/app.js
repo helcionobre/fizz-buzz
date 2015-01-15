@@ -36,7 +36,7 @@ $(document).ready(function() {
 	$(".addnumber").on("click", ".addbutton", function() 
 	{
 		var value_string = document.getElementById("enternumber").value;
-		var value_number = parseInt(value_string);
+		var value_number = parseFloat(value_string);
 	
 	// check if enter number
 		if (isNaN(value_number)) 
